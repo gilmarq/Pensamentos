@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "ae992277efff8f669175490eb2b4e885"
+build_time: [1595607738, 217231000]
+inputs:
+  "/Users/gilmarqueiroz/Desktop/Pensamentos/Pensamentos/Models/QuotesMeneger.swift": !dirty [1595604722, 531833066]
+  "/Users/gilmarqueiroz/Desktop/Pensamentos/Pensamentos/Controllers/QuotesViewController.swift": !dirty [1595518653, 419988482]
+  "/Users/gilmarqueiroz/Desktop/Pensamentos/Pensamentos/Models/Configuration.swift": !dirty [1595355569, 501982400]
+  "/Users/gilmarqueiroz/Desktop/Pensamentos/Pensamentos/AppDelegate.swift": !dirty [1594661686, 168087497]
+  "/Users/gilmarqueiroz/Desktop/Pensamentos/Pensamentos/Models/Quote.swift": !dirty [1595518653, 382012192]
+  "/Users/gilmarqueiroz/Desktop/Pensamentos/Pensamentos/Controllers/SettingsViewController.swift": !dirty [1595266442, 933757988]
+  "/Users/gilmarqueiroz/Desktop/Pensamentos/Pensamentos/SceneDelegate.swift": !dirty [1594661686, 198436858]

@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C5C5A8A24CBCD86004E8A30 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C5C5A8824CBCD86004E8A30 /* quotes.json */; };
+		7C5C5A8B24CBCD86004E8A30 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 7C5C5A8924CBCD86004E8A30 /* Savoye LET.ttc */; };
+		7C5C5A8D24CBFA7A004E8A30 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C5C5A8C24CBFA7A004E8A30 /* Settings.bundle */; };
 		7CE19D5E24BCD2B600CBD0A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE19D5D24BCD2B600CBD0A8 /* AppDelegate.swift */; };
 		7CE19D6024BCD2B600CBD0A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE19D5F24BCD2B600CBD0A8 /* SceneDelegate.swift */; };
-		7CE19D6224BCD2B600CBD0A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE19D6124BCD2B600CBD0A8 /* ViewController.swift */; };
 		7CE19D6524BCD2B600CBD0A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE19D6324BCD2B600CBD0A8 /* Main.storyboard */; };
 		7CE19D6724BCD2BD00CBD0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE19D6624BCD2BD00CBD0A8 /* Assets.xcassets */; };
 		7CE19D6A24BCD2BD00CBD0A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE19D6824BCD2BD00CBD0A8 /* LaunchScreen.storyboard */; };
+		7CE19D7724C609E300CBD0A8 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE19D7624C609E300CBD0A8 /* QuotesViewController.swift */; };
+		7CE19D7924C60A4400CBD0A8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE19D7824C60A4400CBD0A8 /* SettingsViewController.swift */; };
+		7CE19D7D24C60EDE00CBD0A8 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE19D7C24C60EDE00CBD0A8 /* Quote.swift */; };
+		7CE19D8024C60F3E00CBD0A8 /* QuotesMeneger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE19D7F24C60F3E00CBD0A8 /* QuotesMeneger.swift */; };
+		7CE19D8224C60F8200CBD0A8 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE19D8124C60F8200CBD0A8 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C5C5A8824CBCD86004E8A30 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = quotes.json; path = "../../../Arquivos Pensamentos/quotes.json"; sourceTree = "<group>"; };
+		7C5C5A8924CBCD86004E8A30 /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Savoye LET.ttc"; path = "../../../Arquivos Pensamentos/Savoye LET.ttc"; sourceTree = "<group>"; };
+		7C5C5A8C24CBFA7A004E8A30 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Pensamentos/Settings.bundle; sourceTree = SOURCE_ROOT; };
 		7CE19D5A24BCD2B600CBD0A8 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE19D5D24BCD2B600CBD0A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CE19D5F24BCD2B600CBD0A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7CE19D6124BCD2B600CBD0A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7CE19D6424BCD2B600CBD0A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CE19D6624BCD2BD00CBD0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CE19D6924BCD2BD00CBD0A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CE19D6B24BCD2BD00CBD0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE19D7624C609E300CBD0A8 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		7CE19D7824C60A4400CBD0A8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7CE19D7C24C60EDE00CBD0A8 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		7CE19D7F24C60F3E00CBD0A8 /* QuotesMeneger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesMeneger.swift; sourceTree = "<group>"; };
+		7CE19D8124C60F8200CBD0A8 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +71,53 @@
 			isa = PBXGroup;
 			children = (
 				7CE19D5D24BCD2B600CBD0A8 /* AppDelegate.swift */,
-				7CE19D5F24BCD2B600CBD0A8 /* SceneDelegate.swift */,
-				7CE19D6124BCD2B600CBD0A8 /* ViewController.swift */,
-				7CE19D6324BCD2B600CBD0A8 /* Main.storyboard */,
+				7CE19D7124BCD34300CBD0A8 /* Files */,
+				7CE19D7A24C60A9600CBD0A8 /* Controllers */,
+				7CE19D7B24C60AC300CBD0A8 /* Views */,
+				7CE19D7E24C60F1E00CBD0A8 /* Models */,
 				7CE19D6624BCD2BD00CBD0A8 /* Assets.xcassets */,
-				7CE19D6824BCD2BD00CBD0A8 /* LaunchScreen.storyboard */,
+				7C5C5A8C24CBFA7A004E8A30 /* Settings.bundle */,
 				7CE19D6B24BCD2BD00CBD0A8 /* Info.plist */,
 			);
 			path = Pensamentos;
+			sourceTree = "<group>";
+		};
+		7CE19D7124BCD34300CBD0A8 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CE19D5F24BCD2B600CBD0A8 /* SceneDelegate.swift */,
+				7C5C5A8824CBCD86004E8A30 /* quotes.json */,
+				7C5C5A8924CBCD86004E8A30 /* Savoye LET.ttc */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		7CE19D7A24C60A9600CBD0A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CE19D7824C60A4400CBD0A8 /* SettingsViewController.swift */,
+				7CE19D7624C609E300CBD0A8 /* QuotesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7CE19D7B24C60AC300CBD0A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CE19D6324BCD2B600CBD0A8 /* Main.storyboard */,
+				7CE19D6824BCD2BD00CBD0A8 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CE19D7E24C60F1E00CBD0A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CE19D7C24C60EDE00CBD0A8 /* Quote.swift */,
+				7CE19D7F24C60F3E00CBD0A8 /* QuotesMeneger.swift */,
+				7CE19D8124C60F8200CBD0A8 /* Configuration.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +178,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5C5A8A24CBCD86004E8A30 /* quotes.json in Resources */,
 				7CE19D6A24BCD2BD00CBD0A8 /* LaunchScreen.storyboard in Resources */,
 				7CE19D6724BCD2BD00CBD0A8 /* Assets.xcassets in Resources */,
+				7C5C5A8B24CBCD86004E8A30 /* Savoye LET.ttc in Resources */,
+				7C5C5A8D24CBFA7A004E8A30 /* Settings.bundle in Resources */,
 				7CE19D6524BCD2B600CBD0A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +194,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CE19D6224BCD2B600CBD0A8 /* ViewController.swift in Sources */,
+				7CE19D8024C60F3E00CBD0A8 /* QuotesMeneger.swift in Sources */,
+				7CE19D7724C609E300CBD0A8 /* QuotesViewController.swift in Sources */,
+				7CE19D8224C60F8200CBD0A8 /* Configuration.swift in Sources */,
 				7CE19D5E24BCD2B600CBD0A8 /* AppDelegate.swift in Sources */,
+				7CE19D7D24C60EDE00CBD0A8 /* Quote.swift in Sources */,
+				7CE19D7924C60A4400CBD0A8 /* SettingsViewController.swift in Sources */,
 				7CE19D6024BCD2B600CBD0A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +277,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,6 +332,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,6 +353,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.Pensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -309,6 +372,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.Pensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
